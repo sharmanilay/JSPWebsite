@@ -1,0 +1,140 @@
+/* Full-width input fields */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 2% 2%;
+    margin: 3% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label{
+    color: white;
+    font-size: 15px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover, a:active {
+    color:gray;
+    padding: 5px;
+}
+
+
+body {
+    margin: 0 auto ;
+    background-image: url("login.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    background-position: left top;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2% 3%;
+    margin: 3% 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 24px;
+}
+button:hover {
+    background-color: white;
+    color: #4CAF50;
+    padding: 2% 3%;
+    margin: 3% 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 24px;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 4% 0 3% 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+}
+
+
+.container {
+    padding: 3%;
+}
+
+span.password {
+    float: right;
+    padding-top: 3%;
+}
+
+h2{
+text-align:center;
+margin: 10% auto 0% auto;
+font-size: 30px;
+color: white;
+
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 10% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+    border-radius: 3%;
+    width: 25%; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+
+.footer{
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
